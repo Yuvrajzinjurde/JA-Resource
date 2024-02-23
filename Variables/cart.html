@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart quantity</title>
+</head>
+
+<body>
+    <h1>Welcome TO cart</h1>
+    <button onclick="
+    console.log(`Cart Quantity : ${cartQuantity}`)
+    ">show quantity</button>
+
+    <button onclick="
+    cartQuantity +=1;
+   ">Add to cart</button>
+
+
+    <button onclick="
+    cartQuantity +=2;
+   ">+2</button>
+
+    <button onclick=" cartQuantity +=3; ">+3</button>
+
+
+    <button onclick=" cartQuantity=0; ">
+        Reset Cart</button>
+
+    <script>
+        let cartQuantity = 0;
+    </script>
+
+
+    <!-- lesson 5 Assignments-->
+
+
+    <script>
+        1.
+        let name = "Yuvraj";
+
+        2.
+
+        console.log(`My name is ${name}`);
+
+        let coffee = 5;
+        let bagels = 3;
+        let soup = 9;
+        3.
+        let cost = 5 + (bagels * 2) + soup;
+        4.
+        console.log(`Cost of food: $${cost}`);
+
+        5.
+        let tax = (10 / cost) * 100;
+
+        6.
+        console.log(`Tax (10%): $${tax}`);
+
+        7.
+        let totalCost = cost + tax;
+        console.log(`Total cost: $${totalCost}`);
+
+    </script>
+    <!-- 8. -->
+    <button onclick="
+cartQuantity+=4">+4</button>
+
+    <button onclick="
+cartQuantity+=5">+5</button>
+</body>
+
+</html>
+
+<!-- 9 -->
+<button onclick="
+cartQuantity -= 1;
+">Remove from cart</button>
+
+<!-- 10 -->
+<button onclick="
+cartQuantity -= 2;
+">-2</button>
+<button onclick="
+cartQuantity -= 3;
+">-3</button>
+
+<!-- 11 -->
+<!-- shortcuts used -->
+
+
+

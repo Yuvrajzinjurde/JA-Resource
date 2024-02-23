@@ -1,0 +1,73 @@
+.Add-to-cart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-family: Arial;
+    padding: 10px;
+}
+
+.request {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.schedule {
+    background-color: rgb(230, 230, 230);
+    color: black;
+    border: none;
+    font-family: Arial;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: normal;
+}
+
+.gaming-button1 {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.gaming-button2 {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Music {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Tech {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.is-toggle {
+    background-color: rgb(230, 230, 230);
+    color: black;
+}
